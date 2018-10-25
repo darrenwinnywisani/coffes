@@ -73,21 +73,21 @@ Buy():void{this.navCtrl.push(OrderPage)}
 
 Done():void{
   const confirm = this.alertCtrl.create({
-    title: 'Ekasi Coffe Shop',
+    title: 'Ekasi Coffee Shop',
     message: 'are you sure your done buying or you want more?',
     buttons: [
       {
         text: 'no',
         handler: () => {
           console.log('no clicked');
-          this.navCtrl.push(OrderPage);
+          this.navCtrl.push( HomePage);
         }
       },
       {
         text: 'yes',
         handler: () => {
           console.log('yes clicked');
-          this.navCtrl.push(HomePage);
+          this.navCtrl.push(OrderPage);
         }
       }
     ]

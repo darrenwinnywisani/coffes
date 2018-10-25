@@ -13,8 +13,8 @@ export class HomePage {
 
   Alert():void {
     let alert = this.alertCtrl.create({
-      title: 'Ekasi Coffe Shop',
-      subTitle: 'You Have Logedin To Ekasi Coffee Shop',
+      title: 'Ekasi Coffee Shop',
+      subTitle: 'Welcome to Ekasi Coffee Shop You Can Order What Is In the Menu',
       buttons: ['Enter'],
     });
     alert.present();
